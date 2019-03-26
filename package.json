@@ -1,0 +1,20 @@
+{
+  "name": "ts-mock-imports-example",
+  "version": "1.0.0",
+  "description": "Example mocking individual functions in TypeScript unit tests with ts-mock-imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava-ts --verbose spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "1.2.1",
+    "ava-ts": "0.25.2",
+    "sinon": "7.2.5",
+    "ts-mock-imports": "1.2.3",
+    "ts-node": "8.0.2",
+    "typescript": "3.3.3333"
+  }
+}
